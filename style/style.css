@@ -1,0 +1,502 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Faustina';
+}
+.dark-theme{
+    background: #000;
+    color:#F0F0F6;
+}
+body{
+    background: white;
+    color:black;
+}
+.topnav{
+    background-color: #5B7C99;
+    border-style: hidden;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom:5rem;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:14px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family:'Faustina';
+}
+.toggle-btn{
+    float:right;
+    font-size:16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+    height:40px;
+    cursor: pointer;
+}
+.toggle-btn i{
+    width: 25px;
+    margin-left: 10px;
+}
+.left-menu{
+    background-color: #ffffff ;
+    width:320px;
+    height:100vh;
+    position:fixed;
+    top:0;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+}
+header img{
+    width: 220px;
+    height: 223px;
+    right: -20px;
+    top: 0px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+header h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 13px;
+    font-family: 'Faustina';
+    font-weight: bolder;
+    color: black;
+}
+header h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 1px;
+    padding-bottom: 5px;
+}
+.basic-info{
+    text-align: left;
+    color:black;
+    font-family: 'Faustina';
+    word-spacing: 4.5px ;
+    margin-left: 5px;
+}
+.basic-info h1{
+    margin-top: 5px;
+    text-align: left;
+    font-size:18px;
+}
+.basic-info p{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.first{
+    margin-top: 5px;
+    word-spacing: 4.5px ;
+}
+.second{
+    margin-top: 5px;
+    word-spacing: 4.5px ;
+    color:green;
+    margin-left: 10px;
+}
+.languages{
+    margin-top: 5px;
+    text-align: left;
+    font-size:18px;
+}
+.line0{
+    margin-left:5px;
+}
+.languages h1{
+    text-align: left;
+    margin-left: 5px;
+}
+.languages p{
+    margin-top: 5px;
+    color:black;
+    font-weight: bold;
+    font-size:13.3px;
+    word-spacing: 2px ;
+}
+.line1{
+    width: 20px;
+    margin-left: 3.4px;
+}
+.line2{
+    width: 20px;
+    margin-left: 3.4px;
+}
+.line3{
+    width: 20px;
+    margin-left: 3.4px;
+}
+.tick1{
+    width:15px;
+}
+.tick2{
+    width:20px;
+}
+.tick3{
+    width:20px;
+}
+.skills{
+     text-align: left;
+     font-size:14px;
+     font-weight: bold;
+     margin-left: 5px;
+    line-height: normal;
+}
+.skills p{
+    margin-top: 5px;
+    word-spacing: 2px;
+}
+.skills h1{
+    text-align: left;
+    margin-left:2px;
+}
+.extra-skills{
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: normal;
+    margin-top:5px;
+}
+.extra-skills p{
+    margin-top: 5px;
+    word-spacing: 2px;
+    margin-left: 2px;
+    font-size: 16.7px;
+}
+.extra-skills h1{
+    text-align: left;
+    margin-left:2px;
+}
+.download{
+    margin-top:30px;
+    align-items: center;
+    margin-left:30px;
+}
+.main-menu{
+    background-color: #ffffff ;
+    margin-left: 345px;
+    padding:1rem;
+}
+
+.main-menu intro{
+    width: 878px;
+    height:413px;
+    text-align: center;
+    transform-origin: 53% 14%;
+}
+.heropic{
+    width:350px;
+    height:380px;
+    position:absolute;
+    right:5%;
+}
+.in1{
+    background-image: url(/style/images/rectangle.png);
+    background-size: cover;
+    width:500px;
+    height:140px;
+    border-radius: 20px;
+    transform-origin: 60% 69%;
+    margin-top:35px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+.in1 p{
+    margin-top:10px;
+    text-align: center;
+    font-size:24px;
+    justify-content: center;
+    align-items: center;
+}
+.in2{
+    text-space: 10px;
+    font-size:20px;
+    text-align: center;
+    margin-right: 180px;
+    margin-left:0;
+    margin-top:20px;
+    justify-content: center;
+    font-weight: lighter;
+}
+.hire-me{
+    margin-top: 50px;
+    margin-bottom:10px;
+    align-items: center;
+}
+.my-skills{
+    width: 970px;
+    height: 653px;
+    margin-top:15rem;
+    justify-content: center;
+    align-items: center;
+    margin-left:10rem;
+    box-sizing: content-box;
+}
+.my-skills header{
+    margin-top:2px;
+    text-align: center;
+    margin-right:5rem;
+}
+.skill-details{
+    width:798px;
+    height:461px;
+}
+.spring{
+    align-items: center;
+    justify-content: center;
+    margin-right:100px;
+}
+.html{
+    align-items: center;
+    justify-content: center;
+    margin-right:100px;
+}
+.post{
+    align-items: center;
+    justify-content: center;
+    margin-right:70px;
+}
+.two-more{
+    margin-top:25px;
+}
+.css3{
+    margin-right:70px;
+    margin-left:9rem;
+}
+.script{
+    margin-left:5px;
+}
+.my-projects{
+    width: 960px;
+    height: 520px;
+    border-style: outset;
+    border-color: #ecac22;
+    margin-left: 4rem;
+}
+.my-projects header {
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    margin-left:4px;
+}
+.project-details{
+    width: 815px;
+    height:330px;
+    border-radius: 40px;
+    background-color:#73A5BA;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left:4rem;
+    margin-right:4px;
+}
+.projectpics{
+    display: flex;
+    float:left;
+    padding:5px;
+    gap:7.9rem;
+    margin-left:8.8rem;
+    margin-top:1rem;
+}
+.projectpic{
+    width: 210px;
+    height:214px;
+}
+.calcproject{
+    width:189px;
+    height:194px;
+}
+.projectbio{
+    display: flex;
+    float:left;
+    padding:5px;
+    gap:10rem;
+    margin-top:1rem;
+}
+.portfoliobio{
+    background-image:url(/style/images/projectrec.png);
+    width:157px;
+    height:35px;
+    margin-left:11rem;
+}
+.projectbio a{
+    align-items: center;
+    justify-content: center;
+    margin-left:3rem;
+    margin-top:2rem;
+}
+.calcbio{
+    background-image:url(/style/images/projectrec.png);
+    width:157px;
+    height:35px;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-top:10px;
+    font-size:25px;
+    margin-left: 3rem;
+    margin-bottom:1rem;
+    color: black;
+    background-image: url(/style/images/messagerec.png);
+    width: 299px;
+    height: 48px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    width:500px;
+    height:680px;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: #ecac22;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.contact label {
+    line-height: 2.5em;
+    font-weight: bold;
+    color: black;
+    margin-left: 1rem;
+}
+
+.contact textarea {
+    min-height: 20rem;
+    font-size: 14px;
+}
+.contact .input-field {
+    width: 468px;
+    height:44px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px inset;
+    font-size: 0.8rem;
+    border-color: #ecac22;
+    margin-left: 1rem;
+}
+
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: black;
+}
+.submit-btn {
+    width: 25%;
+    padding: 5px;
+    margin-top:2rem;
+    margin-left: 11.5rem;
+    background-color:#F78730 ;
+    border: 2px solid ;
+    border-radius: 9px;
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+.submit-btn:hover {
+    background-color: #ecac22;
+    cursor: pointer;
+}
+.education{
+    width: 370px;
+    height:210px;
+    margin-top:1rem;
+    margin-left:2rem;
+    display: flex;
+    float:left;
+    border-style: inset;
+    border-color: #ecac22;
+    border-radius: 10px;
+}
+.eduheader{
+    text-align: center;
+    margin-left: 20px;
+    background-image: url(/style/images/inforec.png);
+    width:299px;
+    height:50px;
+    margin-top:5rem;
+    background-position: left;
+    font-size: 28px;
+
+}
+.education p{
+    font-weight: bold;
+    font-size:18px;
+    margin-top:2px;
+    margin-left:1rem;
+}
+.finkilogo{
+    margin-top:2rem;
+    margin-left:2rem;
+
+}
+.contact-info{
+    width:480px;
+    height: 350px;
+    display: flex;
+    float: right;
+    margin-right:5rem;
+
+}
+.contact-info h2{
+ background-image: url(/style/images/inforec.png);
+    width:299px;
+    height:50px;
+    margin-left: 1rem;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+.firstinfo{
+    width:335px;
+    height:180px;
+    border-radius: 36px;
+    margin-top:2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F6;
+}
+.mkd{
+    align-items: center;
+    justify-content: center;
+    margin-left:8rem;
+}
+.firstinfo p{
+    margin-left:3.5rem;
+    margin-top:10px;
+    color:black;
+    font-weight:bolder;
+}
+.secondinfo{
+    width:335px;
+    height:180px;
+    border-radius: 36px;
+    margin-top:2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F6;
+}
+.emailinfo{
+    align-items: center;
+    justify-content: center;
+    margin-left:8rem;
+    margin-top:5px;
+}
+.secondinfo p{
+    margin-left:3.5rem;
+    margin-top:10px;
+    color:black;
+    font-weight:bolder;
+}
